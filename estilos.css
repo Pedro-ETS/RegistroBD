@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#registro{
+    width: 35%;
+    margin-right: 5%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.info input{
+    width: 100%;
+    font-size: 18px;
+}
+.info select{
+    width: 50%;
+    font-size: 18px;
+}
+
+#buscarHombres, #buscarMujeres{
+    font-weight: 18px;
+}
+#tablas{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#mujeres, #hombres{
+    width: 100%;
+}
+#hombres{
+    margin-bottom: 5%;
+}
+.encabezado_tabla{
+    font-size: 18px;
+    background-color: #f0ffaf;
+}
+#gpoBtn{
+    display: flex;
+    flex-direction: row;
+}
+button, input[type=button]{
+    color: white;
+    background: #4F95DA;
+    border: 1px solid #91C9FF;
+    padding: 5px;
+    font-weight: 700;
+    outline: none;
+    border-radius: 10px;
+}
+input[type=button]{
+    
+    background: #34aa5b;
+    border: 1px solid #4fda7d;
+}
+table{
+    text-align: center;
+}
